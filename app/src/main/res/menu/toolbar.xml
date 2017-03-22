@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/ic_action_redo"
+        android:title="Backup"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_action_coffee2go"
+        android:title="Backup"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/settings"
+        android:title="Backup"
+        app:showAsAction="never"
+        />
+    <!--android:id   按钮Id
+        android：icon  按钮图标
+        android:title  按钮文字
+        app:showAsAction 下面详细
+    -->
+
+    <!--showAsAction主要有几种值可选：
+        always表示永远显示在ToolBar中，不够的话显示在菜单当中
+        ifRoom表示屏幕空间足够的情况下显示在ToolBar中，不够的话就显示在菜单中
+        never则表示永远显示在菜单中
+    -->
+</menu>
